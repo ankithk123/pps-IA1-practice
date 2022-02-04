@@ -7,13 +7,13 @@ void input(int *a,int *b,int *c)
 }
 void cmp(int a,int b,int c,int *l)
 {
-  if(a>b&&a>c)
+  if(a>=b&&a>=c)
   *l=a;
   else
-  if(b>a&&b>c)
+  if(b>=a&&b>=c)
   *l=b;
   else
-  if(c>a&&c>b)
+  if(c>=a&&c>=b)
   *l=c;
 }
 void output(int largest)
